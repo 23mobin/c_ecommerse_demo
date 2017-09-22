@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
 		$data = array();
 		$data['variable1']= "a value from controller";
 		$data['homepage_content']=$this->load->view('main_site/main_content_view',$data,true);
-
+    // asdssdsdsdsdsdsd
 		$this->load->view('home_view',$data);
 	}
 
